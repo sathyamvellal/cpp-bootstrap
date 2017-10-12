@@ -1,6 +1,11 @@
-#include <iostream>
+//
+// Created by Sathyam Vellal on 12/10/2017.
+//
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+#include <hello.h>
+
+int main(int argc, char **argv) {
+    hello();
+
     return 0;
 }
