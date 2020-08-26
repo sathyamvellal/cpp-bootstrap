@@ -5,12 +5,10 @@
 #include <iostream>
 
 #include "hello.h"
-#include "utils/logger.hpp"
 
 int main(int argc, char *argv[])
 {
     hello();
-    log<LOG_DEBUG>(L"Foo bar %1%") % 5;
 
     return 0;
 }

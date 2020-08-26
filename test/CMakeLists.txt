@@ -3,3 +3,5 @@ project(${CMAKE_PROJECT_NAME}-test)
 
 add_executable(hello test_hello.cpp)
 target_link_libraries(hello common)
+
+install(TARGETS hello DESTINATION bin)
